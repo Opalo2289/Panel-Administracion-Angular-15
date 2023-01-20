@@ -1,2 +1,1 @@
-# "Panel de Administracion" 
-# "barra sidenav"
+# "Panel de Administracion"
