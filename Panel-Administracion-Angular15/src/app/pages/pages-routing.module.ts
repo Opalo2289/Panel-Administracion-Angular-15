@@ -10,10 +10,10 @@ import { ClientsComponent } from './clients/clients.component';
 const routes: Routes = [
   {path: 'dashboard', component: PagesComponent,
   children: [
-    {path: '', component: DashboardComponent},
-    {path: 'user', component: UserComponent},
-    {path: 'products', component: ProductsComponent},
-    {path: 'clients', component: ClientsComponent}
+    {path: '', component: DashboardComponent, data: {titulo: 'Dashboard'}},
+    {path: 'user', component: UserComponent, data: {titulo: 'User'}},
+    {path: 'products', component: ProductsComponent, data: {titulo: 'Products'}},
+    {path: 'clients', component: ClientsComponent, data: {titulo: 'Clients'}}
   ]
 }  
 
