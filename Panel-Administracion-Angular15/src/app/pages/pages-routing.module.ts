@@ -5,13 +5,15 @@ import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { UserComponent } from './user/user.component';
 import { ProductsComponent } from './products/products.component';
+import { ClientsComponent } from './clients/clients.component';
 
 const routes: Routes = [
   {path: 'dashboard', component: PagesComponent,
   children: [
     {path: '', component: DashboardComponent},
     {path: 'user', component: UserComponent},
-    {path: 'products', component: ProductsComponent}
+    {path: 'products', component: ProductsComponent},
+    {path: 'clients', component: ClientsComponent}
   ]
 }  
 

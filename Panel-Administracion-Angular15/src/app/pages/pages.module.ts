@@ -6,6 +6,7 @@ import { ProductsComponent } from './products/products.component';
 import { PagesComponent } from './pages.component';
 import { RouterModule } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
+import { ClientsComponent } from './clients/clients.component';
 
 
 
@@ -14,7 +15,8 @@ import { SharedModule } from '../shared/shared.module';
     DashboardComponent,
     UserComponent,
     ProductsComponent,
-    PagesComponent
+    PagesComponent,
+    ClientsComponent
   ],
   imports: [
     CommonModule,
